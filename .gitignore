@@ -1,9 +1,5 @@
-# Python cache
 __pycache__/
-*.pyc
-
-# Environment variables
 .env
-
-# Editor settings
-.vscode/
+venv/
+node_modules/
+*.log
