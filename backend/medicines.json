@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Paracetamol",
+    "usage": "Commonly used for pain relief (headache, muscle pain) and fever reduction.",
+    "dos_donts": "Do: Take after food to avoid stomach upset. Don't: Exceed 4g (8 tablets) per day.",
+    "side_effects": "Nausea, skin rash (rare), liver damage (if overdosed).",
+    "disclaimer": "Consult a doctor if fever persists for more than 3 days."
+  },
+  {
+    "name": "Ibuprofen",
+    "usage": "Anti-inflammatory drug used for pain, fever, and inflammation (e.g., arthritis).",
+    "dos_donts": "Do: Take with food or milk. Don't: Take if you have stomach ulcers or asthma.",
+    "side_effects": "Stomach pain, heartburn, dizziness.",
+    "disclaimer": "Avoid long-term use without medical advice."
+  },
+  {
+    "name": "Amoxicillin",
+    "usage": "Antibiotic used to treat bacterial infections (e.g., ear, throat, chest infections).",
+    "dos_donts": "Do: Complete the full course. Don't: Stop early even if you feel better.",
+    "side_effects": "Nausea, diarrhea, allergic rash.",
+    "disclaimer": "Ineffective against viral infections like flu."
+  },
+  {
+    "name": "Cetirizine",
+    "usage": "Antihistamine used to relieve allergy symptoms (hay fever, hives, itching).",
+    "dos_donts": "Do: Take once a day. Don't: Drive if you feel drowsy.",
+    "side_effects": "Drowsiness, dry mouth, headache.",
+    "disclaimer": "Alcohol may increase drowsiness."
+  },
+  {
+    "name": "Aspirin",
+    "usage": "Pain reliever, fever reducer, and anti-inflammatory. Also used for heart health.",
+    "dos_donts": "Do: Take with plenty of water. Don't: Give to children under 16 (Reye's syndrome risk).",
+    "side_effects": "Indigestion, increased bleeding risk.",
+    "disclaimer": "Consult doctor if on blood thinners."
+  },
+  {
+    "name": "Metformin",
+    "usage": "First-line medication for type 2 diabetes to control blood sugar.",
+    "dos_donts": "Do: Take with meals. Don't: Skip meals while on medication.",
+    "side_effects": "Nausea, stomach upset, metallic taste.",
+    "disclaimer": "Monitor kidney function regularly."
+  },
+  {
+    "name": "Omeprazole",
+    "usage": "Reduces stomach acid to treat heartburn, acid reflux, and ulcers.",
+    "dos_donts": "Do: Take in the morning before breakfast. Don't: Use for more than 14 days without advice.",
+    "side_effects": "Headache, stomach pain, gas.",
+    "disclaimer": "Seek help if swallowing becomes difficult."
+  },
+  {
+    "name": "Dolo 650",
+    "usage": "Popular brand of Paracetamol for high fever and pain.",
+    "dos_donts": "Do: Maintain gap of 4-6 hours between doses. Don't: Take with other paracetamol products.",
+    "side_effects": "Nausea, dizziness (rare).",
+    "disclaimer": "Overdose can cause serious liver harm."
+  },
+  {
+    "name": "Azithromycin",
+    "usage": "Macrolide antibiotic for respiratory, skin, and ear infections.",
+    "dos_donts": "Do: Take 1 hour before or 2 hours after food. Don't: Take antacids simultaneously.",
+    "side_effects": "Diarrhea, abdominal pain.",
+    "disclaimer": "Watch for heart rhythm changes (rare)."
+  },
+  {
+    "name": "Pantoprazole",
+    "usage": "Treats acid reflux, GERD, and stomach ulcers.",
+    "dos_donts": "Do: Swallow whole; do not chew. Don't: Combine with alcohol regularly.",
+    "side_effects": "Joint pain, dizziness, headache.",
+    "disclaimer": "Long term use may affect bone density."
+  },
+  {
+    "name": "Vitamin C (Ascorbic Acid)",
+    "usage": "Nutritional supplement for immunity and skin health.",
+    "dos_donts": "Do: Store in cool, dry place. Don't: Take excessive amounts (kidney stone risk).",
+    "side_effects": "Stomach cramps, heartburn (if high dose).",
+    "disclaimer": "Supplements are not a substitute for a balanced diet."
+  },
+  {
+    "name": "Cough Syrup (Generic)",
+    "usage": "Suppresses cough or clears mucus (expectorant).",
+    "dos_donts": "Do: Measure generic dose with cap. Don't: Drink directly from bottle.",
+    "side_effects": "Drowsiness, dizziness.",
+    "disclaimer": "Check label for 'drowsy' warning before driving."
+  }
+]

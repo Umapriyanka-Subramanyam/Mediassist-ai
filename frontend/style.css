@@ -1,0 +1,143 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap');
+
+/* Global Styles */
+html,
+body,
+[class*="css"] {
+    font-family: 'Outfit', sans-serif;
+    color: #e0e0e0;
+}
+
+/* Background - Professional Medical Theme (Deep Slate Blue) */
+/* "Decent" colors: calming, trustworthy, not too flashy */
+.stApp {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background-attachment: fixed;
+}
+
+/* Sidebar - Subtle Dark */
+[data-testid="stSidebar"] {
+    background-color: rgba(30, 41, 59, 0.8);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Glassmorphism Card Style - Clean & Professional */
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgba(56, 189, 248, 0.3);
+    /* Subtle light blue highlight */
+}
+
+/* Headings */
+h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px !important;
+    color: #f8fafc;
+    /* Nearly white */
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    color: #38bdf8 !important;
+    /* Sky Blue - Medical/Clean */
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #94a3b8 !important;
+    /* Slate Gray - Professional Subheading */
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Paragraphs */
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+    /* Light Slate - Easy to read */
+}
+
+/* Input Field - Minimalist */
+.stTextInput>div>div>input {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 1rem;
+}
+
+.stTextInput>div>div>input:focus {
+    border-color: #38bdf8;
+    background-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.3);
+}
+
+/* Button - Trustworthy Blue */
+.stButton>button {
+    background: #0ea5e9;
+    /* Sky Blue 500 */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.stButton>button:hover {
+    background: #0284c7;
+    /* Darker Blue on hover */
+    box-shadow: 0 2px 10px rgba(14, 165, 233, 0.3);
+}
+
+/* Status Messages - Muted & Clean */
+.stWarning,
+.stAlert {
+    background-color: rgba(234, 179, 8, 0.1) !important;
+    border: 1px solid rgba(234, 179, 8, 0.2);
+    color: #fde047;
+}
+
+.stError {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+}
+
+/* Remove footer */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
