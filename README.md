@@ -1,6 +1,6 @@
-## MedAssist-AI 💊
+## MediAssist-AI 💊
 
-MedAssist-AI is an AI-powered medicine information assistant that helps users understand commonly used medicines in a simple and easy-to-use way.
+MediAssist-AI is an AI-powered medicine information assistant that helps users understand commonly used medicines in a simple and easy-to-use way.
 
 ## Features
 - Search medicines with typo tolerance
